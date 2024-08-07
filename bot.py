@@ -253,8 +253,8 @@ async def reset(update: Update, context):
 async def show_language_menu(update: Update, context):
     keyboard = [
         [
-            InlineKeyboardButton("-中文-", callback_data='lang_zh'),
-            InlineKeyboardButton("-English-", callback_data='lang_en')
+            InlineKeyboardButton("👉中文👈", callback_data='lang_zh'),
+            InlineKeyboardButton("👉English👈", callback_data='lang_en')
         ]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
